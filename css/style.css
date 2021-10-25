@@ -6,6 +6,7 @@ body
     font-size: 25px;
     padding: 0px;
     margin: 0px;
+    text-align: justify;
 }
 nav
 {
@@ -19,6 +20,11 @@ nav a
 {
     text-decoration: none;
     color: black;
+}
+nav a:hover
+{
+    text-decoration: underline red;
+
 }
 footer, .border
 {
