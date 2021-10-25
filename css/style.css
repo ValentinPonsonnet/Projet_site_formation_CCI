@@ -81,5 +81,6 @@ input, textarea, label
 }
 form
 {
-    border: 1px black solid;
+    border: 2px black solid;
+    box-shadow: 2px 2px 10px;
 }
