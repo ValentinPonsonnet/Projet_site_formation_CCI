@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
 body
 {
     margin-right: 20px;
@@ -41,14 +46,14 @@ footer, .border
 }
 .gauche
 {
-    margin-top: 10px;
     float: left;
+    margin-top: 10px;
     margin-right: 15px;
 }
 .droite
 {
-    margin-top: 10px;
     float: right;
+    margin-top: 10px;
     margin-left: 15px;
 }
 .Tech
@@ -106,4 +111,27 @@ h1
 .liste
 {
   margin-left: 150px;  
+}
+
+@media(max-width : 1024px)
+{
+    h2
+    {
+        display: flex;
+        justify-content: center;
+    }
+    article p
+    {
+        float: none;
+        margin-left: auto;
+    }
+    .droite, .gauche, .tête
+    {
+        height: auto;
+        width: 100%;
+    }
+    footer, .border
+    {
+        text-align: center;
+    }
 }
